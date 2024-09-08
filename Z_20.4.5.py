@@ -48,7 +48,7 @@ for order_num, orders_data in orders.items():
 for date in sorted(date_dict):
     m_value = max(date_dict.values())
     if date_dict[date] == m_value:
-        print(f'3.Больше всего заказов в июле сделано: {date}, количество заказов: {date_dict[date]}')
+        print(f'Больше всего заказов в июле сделано: {date}, количество заказов: {date_dict[date]}')
 
 #4.Какой пользователь сделал самое большое количество заказов за июль?
 s_quantity = 0
